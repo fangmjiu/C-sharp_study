@@ -6,7 +6,7 @@ namespace Create {
         static void Main(String[] args) {
             if (args.Length != 2) {
                 Console.WriteLine("please input username and password");
-                Console.WriteLine("Usage:add.exe <username> <password>");
+                Console.WriteLine("Usage:CreateUser.exe <username> <password>");
             } else {
                 String username = args[0];
                 String password = args[1];
